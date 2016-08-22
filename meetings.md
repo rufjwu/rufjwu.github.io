@@ -2,6 +2,9 @@
 layout: page
 title: Meetings
 ---
+
+### [Add to your calendar](/assets/Test-Repeated-Meeting.ics "calendar")
+
 ## Meetings
 
 ### Time: -:- -PM
@@ -9,5 +12,3 @@ title: Meetings
 ### Date: - -
 
 ### Location: - -
-
-### [Add to your calendar](/assets/Test-Repeated-Meeting.ics "calendar")

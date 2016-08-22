@@ -9,3 +9,5 @@ title: Meetings
 ### Date: - -
 
 ### Location: - -
+
+### [Add to your calendar](/assets/Test-Repeated-Meeting.ics "calendar")

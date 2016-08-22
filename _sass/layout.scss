@@ -53,6 +53,18 @@
 /* Icon menu */
 
 #nav-menu {
+  border: 1px solid #CCC;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.8em 1em 2em;
+  margin-top: -0.7em;
+  margin-right: -0.5em;
+  border-radius: 0.4em;
+  @media (min-width: 940px) {
+    border: 0px solid #CCC;
+    margin-right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
   @include icon-position(right);
 }
 
@@ -72,7 +84,7 @@
     height: 4px;
     width: 1.5em;
     background-color: lighten($text-color, 35%);
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; 
   }
   &:before {
     top: -8px;
@@ -89,7 +101,8 @@
        -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    background-color: $background-color;
+    //background-color: $background-color;
+    background-color: lighten($text-color, 35%);
   }
   &.btn-close:after {
     top: -4px;
@@ -97,7 +110,8 @@
        -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-    background-color: $background-color;
+    //background-color: $background-color;
+    background-color: lighten($text-color, 35%);
   }
 }
 

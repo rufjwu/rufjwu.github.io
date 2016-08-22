@@ -6,6 +6,11 @@
 	display: block;
 }
 
+#info-bar-link:hover {
+	opacity: 0.8;
+	padding-left: 0.4em;
+}
+
 #info-bar {
 	border-radius: 0.5em;
 	text-align: center;
@@ -15,7 +20,7 @@
 
 	margin: 1em 5em 1em 1em;
 	height: 4em;
-	padding-top: 0.6em;
+	padding-top: 0.8em;
 
 	@media (min-width: 840px) {
 		margin: 1em auto;	
@@ -26,12 +31,11 @@
 	}
 }
 
-#info-bar-link:hover {
-	opacity: 0.8;
-	padding-left: 0.4em;
-}
-
 #info-bar h3 {
 	color: #FFF;
-	font-size: 1em;
+	font-size: 0.8em;
+
+	@media (min-width: 840px) {
+		font-size: 1em;
+	}
 }

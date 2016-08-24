@@ -39,12 +39,12 @@ Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best 
 
 This website uses the Emerald theme for Jekyll which can be found at [https://github.com/KingFelix/emerald](https://github.com/KingFelix/emerald)
 
-## Author
+### Author
 
-### Jacopo Rabolini
+#### Jacopo Rabolini
 
 - Web site: [www.jacoporabolini.com](http://www.jacoporabolini.com)
 - Google+: [+JacopoRabolini](https://plus.google.com/u/0/+JacopoRabolini/posts)
 
-## License
+### License
 Emerald is released under [MIT License](license.md).
